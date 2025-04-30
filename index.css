@@ -169,7 +169,9 @@ body {
 }
 
 .entire-customer-bill-section button {
-  margin-top: 25px;
+  margin-top: 55px;
+  font-size: 20px;
+  font-weight: 600;
   width: 90%;
   height: 50px;
   border-radius: 25px;
@@ -179,6 +181,7 @@ body {
 
 .entire-customer-bill-section button:hover {
   background-color: var(--button-hover);
+  color: rgb(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
