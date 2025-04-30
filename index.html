@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <img src="./coffee_masters_logo.png" alt="a coffee brand logo" />
+    <h1>Coffee Masters</h1>
+  </header>
+  <body>
+    <section class="items-name-payment-container">
+      <article class="items-container">
+        <h2>Items</h2>
+        <div style="width: 100%">
+          <div class="item-order-container">
+            <p>1x</p>
+            <div>
+              <p>Cappuccino</p>
+              <p>Lite Foam</p>
+            </div>
+            <p>$3.35</p>
+          </div>
+          <div style="border-bottom: 2px solid black; margin: 10px"></div>
+          <div class="item-order-container">
+            <p>1x</p>
+            <div>
+              <p>Cappuccino</p>
+              <p>Lite Milk</p>
+              <p>Double Espresso</p>
+            </div>
+            <p>$3.85</p>
+          </div>
+          <div style="border-bottom: 2px solid black; margin: 10px"></div>
+          <div class="item-order-container">
+            <p>1x</p>
+            <div>
+              <p>Croissant</p>
+              <p>Butter</p>
+            </div>
+            <p>$2.45</p>
+          </div>
+        </div>
+      </article>
+      <article
+        style="display: flex; flex-direction: column; gap: 15px; margin: 10px"
+      >
+        <div class="name-container">
+          <h2>Name</h2>
+          <div class="user-input">
+            <input type="text" placeholder="" />
+            <label for="Name">Name For Order</label>
+          </div>
+        </div>
+        <div class="payment-container">
+          <h2>Payment</h2>
+          <div class="user-input">
+            <input id="Payment" type="text" />
+            <label for="Payment">Card Number</label>
+          </div>
+          <div class="user-input">
+            <input id="CVV" type="text" />
+            <label for="CVV">CVV</label>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="entire-customer-bill-section">
+      <div class="customer-bill-details">
+        <div>
+          <p>Subtotal:</p>
+          <p>Tax:</p>
+          <p>Total:</p>
+        </div>
+        <div>
+          <p>$9.65</p>
+          <p>$0.82</p>
+          <p>$10.47</p>
+        </div>
+      </div>
+      <button>Place Order</button>
+    </section>
+  </body>
+</html>
