@@ -8,13 +8,20 @@
   --accent: #976e47;
 }
 
+/* font-family: Open Sans, sans-serif; */
+
+@font-face {
+  font-family: "bahnschrift";
+  src: url(https://use.typekit.net/lqu7usm.css);
+  font-weight: 200;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
-  /* font-family: Open Sans, sans-serif; */
   font-family: "bahnschrift", sans-serif;
   font-weight: 200;
-  font-style: normal;
 }
 
 header {
